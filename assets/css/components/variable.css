@@ -1,0 +1,21 @@
+:root {
+    /*********************************** GENERAL ***********************************/
+    --h1FontSize:1.5rem;
+    --pFontSize:1rem;
+    --pFirstSectionFontSize:0.75rem;
+    --boutonFontSize:0.75rem;
+    /* MODE JOUR */
+    --dayModeBackgroundColor:#F0F0F0;
+    --dayModeComposantBackgroundColor:#FFF;
+    /* MODE NUIT */
+    --nightModeBackgroundColor:#0D0D0D;
+    --dayModeComposantBackgroundColor:#202020;
+    /*********************************** HEADER ***********************************/
+    --headerNavFontSize:0.75rem;
+    --headerBackgroundColor:#F0F0F0;
+    --headerTextColor:#000;
+    /*********************************** MAIN ***********************************/
+    /*********************************** FOOTER ***********************************/
+    --footerH2FontSize:1.25rem;
+    --footerNavFontSize:1rem;
+}
