@@ -1,19 +1,7 @@
 /* Font */
 @font-face {
-    font-family: "SatoshiLI";
-    src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-LightItalic.ttf");
-
-    font-family: "SatoshiL";
-    src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Light.ttf");
-
-    font-family: "SatoshiM";
-    src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Medium.ttf");
-
-    font-family: "SatoshiR";
-    src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Regular.ttf");
-
-    font-family: "SatoshiB";
-    src: url("../fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Bold.ttf");
+    font-family: "Reglarik";
+    src: url("../fonts/reglarik-italic-otf-1775203716-0/Reglarik-Italic-Exfonte3df.otf");
 }
 
 
@@ -30,7 +18,7 @@ html{
 }
 
 body{
-    padding: 2.75rem 2.625rem;
+    padding: 1rem 1rem;
     height: 100%;
     width: 100%;
     background-color: var(--dayModeBackgroundColor);
@@ -43,6 +31,7 @@ main{
 
 a{
     text-decoration: none;
+    color: black;
 }
 
 p, a, li, h1, h2, h3, h4, h5, button{
@@ -52,8 +41,22 @@ p, a, li, h1, h2, h3, h4, h5, button{
 li{
     list-style: none;
 }
-
-.bgWhite{
-    background-color: var(--dayModeComposantBackgroundColor);
+h1, h2, h3, h4, h5, h6, a, p{
+    font-family: "Reglarik";
 }
 
+h1{
+    font-size: 1.5rem;    
+}
+
+.firstSection-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.citeDesSciences-container{
+    background-image: url();
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
