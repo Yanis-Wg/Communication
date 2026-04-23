@@ -458,13 +458,14 @@ h1{
 @media screen and (min-width:769px) {
     .citeDesSciences-container {
         width: 60%;
-        height: 56vh;
+        height: 58vh;
     }
     .citationEtCartes-container {
         width: 38%;
+        height: 58vh;
     }
     .citation-container {
-        height: 9.6rem;
+        height: 23.5vh;
     }
     .citation-container>h2 {
         font-size: 1.2rem;
