@@ -4,11 +4,22 @@ p {
     font-family: "Poppins", sans-serif;
 }
 
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+}
+
 .basic-container {
+    position: relative;
     height: 45vh;
+    min-height: 45vh;
     background-size: cover;
     background-position: center;
     background-image: url("../images/corean_part/passage-room.jpg");
+    background-size: 120%;
+    transition: 0.3s ease;
 }
 
 .basic-container::before {
@@ -17,13 +28,30 @@ p {
     inset: 0;
     backdrop-filter: blur(7px);
     border-radius: 8px;
+    transition: 0.3s ease;
 }
 
-.basic-btn{
+.basic-container:hover::before {
+    backdrop-filter: blur(13px);
+}
+
+.basic-container:hover {
+    background-size: 115%;
+}
+
+.basic-btn {
+    position: absolute;
+    bottom: 14px;
+    right: 14px;
     border: none;
     font-family: "Reglarik";
     font-size: 1rem;
     outline: none;
+    transition: 0.1s ease;
+}
+
+.basic-btn:hover {
+    scale: 1.05;
 }
 
 .passage-room {
@@ -78,10 +106,21 @@ p {
     overflow: hidden;
     background-color: black;
     padding: 36px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.pop-up::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    backdrop-filter: blur(7px);
+    transition: 0.3s;
 }
 
 .active {
-    display: block;
+    display: flex;
 }
 
 .pop-up-content {
@@ -94,12 +133,17 @@ p {
     width: 100%;
     display: flex;
     flex-direction: column;
-    z-index: 10;
+}
+
+.pop-up .img-container {
+    max-height: 40%;
 }
 
 .pop-up .img-container img {
     width: 100%;
+    height: 100%;
     border-radius: 8px;
+    object-fit: cover;
 }
 
 .pop-up h2 {
@@ -118,4 +162,71 @@ p {
     position: absolute;
     right: 10px;
     top: 10px;
+    transition: 0.2s;
+}
+
+.close-button:hover {
+    scale: 1.3;
+}
+
+@media (min-width: 700px) {
+    body {
+        height: 100vh;
+    }
+
+    main {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: minmax(100px, auto);
+    }
+
+    .basic-container {
+        height: 100%;
+        min-height: 0;
+    }
+
+    .passage-room {
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .voo-pee {
+        grid-column: 2 / 4;
+        grid-row: 1;
+    }
+
+    .woven-frequencies {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .naked-island {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    .youro-dance {
+        grid-column: 1 / 3;
+        grid-row: 3;
+    }
+
+    .eternal-land {
+        grid-column: 3;
+        grid-row: 3;
+    }
+
+    .pop-up-content {
+        flex-direction: row;
+        gap: 2rem;
+        width: 80%;
+    }
+
+    .text-container {
+        width: 100%;
+    }
+
+    .pop-up .img-container {
+        max-width: 50%;
+        max-height: 100%;
+        height: 100%;
+    }
 }

@@ -3,6 +3,7 @@ export const expositions = [
         id: "1",
         title: "Passage Room",
         // author: "By: Minkyung Choi",
+        cover : "../assets/images/corean_part/passage-room.jpg",
         image: "../assets/images/corean_part/passage-room.jpg",
         sections: [
             {
@@ -22,8 +23,8 @@ export const expositions = [
     {
         id: "2",
         title: "Voooooo---Peeeeeee---",
-        // author: "By: UBAC Studio",
-        image: "../assets/images/corean_part/vopo.jpg",
+        cover : "../assets/images/corean_part/voo-pee.jpg",
+        image: "../assets/images/corean_part/voo-pee.jpg",
         sections: [
             {
                 subtitle: "Introduction",
