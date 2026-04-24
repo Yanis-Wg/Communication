@@ -1,34 +1,34 @@
-export const expositions = [
+export const expositions_europ = [
     {
         id: "1",
-        title: "Passage Room",
+        title: "Spectacle du coup",
         // author: "By: Minkyung Choi",
         cover : "../assets/images/corean_part/passage-room.jpg",
         image: "../assets/images/corean_part/passage-room.jpg",
         sections: [
             {
-                subtitle: "La venue de jsp quoi",
-                paragraph: "Oui alors voilà..."
+                subtitle: "1",
+                paragraph: "ok"
             },
             {
-                subtitle: "Partie 2",
-                paragraph: "Un autre texte..."
+                subtitle: "2",
+                paragraph: "txt"
             },
                         {
-                subtitle: "Partie 3 autant que tu veux",
-                paragraph: "Un autre texte..."
+                subtitle: "3",
+                paragraph: "ok"
             },
         ]
     },
     {
         id: "2",
-        title: "Voooooo---Peeeeeee---",
+        title: "Camera",
         cover : "../assets/images/corean_part/voo-pee.jpg",
         image: "../assets/images/corean_part/voo-pee.jpg",
         sections: [
             {
-                subtitle: "Introduction",
-                paragraph: "Texte ici..."
+                subtitle: "Incroyable",
+                paragraph: "detecte les mouvements"
             }
         ]
     }

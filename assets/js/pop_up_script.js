@@ -1,4 +1,8 @@
-import { expositions } from "./data.js";
+import { expositions_corea } from "./data_corea.js";
+import { expositions_europ } from "./data_europ.js";
+
+const page = document.body.dataset.page;
+const expositions = page === "corea" ? expositions_corea : expositions_europ;
 
 function openPopup(expo) {
     const textContainer = document.querySelector(".text-container");
@@ -10,14 +14,14 @@ function openPopup(expo) {
     document.querySelector(".img-container img").src = expo.image;
 
     const sectionsHTML = expo.sections.map(section => `
-    <h2>${section.subtitle}</h2>
-    <p>${section.paragraph}</p>
-`).join("");
+        <h2>${section.subtitle}</h2>
+        <p>${section.paragraph}</p>
+    `).join("");
 
     textContainer.innerHTML = `
-    <h1>${expo.title}</h1>
-    ${sectionsHTML}
-`;
+        <h1>${expo.title}</h1>
+        ${sectionsHTML}
+    `;
 }
 
 function closePopup() {

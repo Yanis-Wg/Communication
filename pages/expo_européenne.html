@@ -1,38 +1,104 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Exposition européene</title>
     <!-- ICONE -->
     <link rel="icon" href="./assets/images/icons/pokeball_logo.png" type="image/png">
     <link rel="stylesheet" href="./assets/css/components/animation.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <!-- HEAD -->
-     <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style_expo.css">
     <link rel="stylesheet" href="./assets/css/components/variable.css">
     <script src="../../assets/js/script.js"></script>
 </head>
-<body>
-    <!-- MAIN -->
+
+<body data-page="europ">
+    <header>
+        <a href="/index.html" class="btn-home">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                <path d="M10 3L5 8L10 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
+            Accueil
+        </a>
+    </header>
     <main>
-        <section class=" bgWhite">
-
+        <section class="citeDesSciences-container basic-container spectacle">
+            <div>
+                <h1>spectacle</h1>
+                <h2>By: jsp</h2>
+            </div>
+            <div>
+                <button class="citeDesSciences-btn basic-btn" id="open-passage-room">
+                    En savoir plus
+                    <img src="../assets/images/icons/arrow.svg" alt="arrow">
+                </button>
+            </div>
         </section>
-        <section class=" bgWhite">
-
+        <section class="citeDesSciences-container basic-container camera">
+            <div>
+                <h1>caméra qui détecte les mouvements</h1>
+                <h2>By: jsp</h2>
+            </div>
+            <div>
+                <button class="citeDesSciences-btn basic-btn" id="open-passage-room">
+                    En savoir plus
+                    <img src="../assets/images/icons/arrow.svg" alt="arrow">
+                </button>
+            </div>
         </section>
-        <section class="">
-
+        <section class="citeDesSciences-container basic-container museum">
+            <div>
+                <h1>musée virtuel</h1>
+                <h2>By: jsp</h2>
+            </div>
+            <div>
+                <button class="citeDesSciences-btn basic-btn" id="open-passage-room">
+                    En savoir plus
+                    <img src="../assets/images/icons/arrow.svg" alt="arrow">
+                </button>
+            </div>
         </section>
-        <section class="">
+        <section class="citeDesSciences-container basic-container vr-headset">
+            <div>
+                <h1>les casques vr la</h1>
+                <h2>By: jsp</h2>
 
+            </div>
+            <div>
+                <button class="citeDesSciences-btn basic-btn" id="open-passage-room">
+                    En savoir plus
+                    <img src="../assets/images/icons/arrow.svg" alt="arrow">
+                </button>
+            </div>
         </section>
-        <section class="">
 
+        <section class="pop-up">
+            <div class="pop-up-content">
+                <img src="../assets/images/icons/close.svg" alt="fermer la fenetre" class="close-button">
+                <div class="img-container">
+                    <img src="../assets/images/corean_part/voo-pee.jpg" alt="">
+                </div>
+                <div class="text-container">
+                    <h1>
+                        Name
+                    </h1>
+                    <h2>Part 1</h2>
+                    <p>Modi, dolorem!</p>
+                    <h2>Part 2</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+                </div>
+            </div>
         </section>
     </main>
 </body>
+<script type="module" src="../../assets/js/pop_up_script.js"></script>
+
 </html>
