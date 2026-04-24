@@ -64,6 +64,7 @@ h1{
     width: fit-content;
     height: fit-content;
     z-index: 3;
+    position: sticky;
 }
 .backHome-container>nav>a{
     display: flex;
