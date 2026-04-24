@@ -8,7 +8,7 @@ export const expositions_corea = [
         sections: [
             {
                 subtitle: "L'expérience vécue :",
-                paragraph: "Passage Room n'est pas qu'une simple démonstration en réalité virtuelle, c'est une véritable œuvre d'art engagée. Conçue par Minkyung Choi, une artiste visuelle sud-coréenne basée à Séoul, l'expérience utilise la notion d'espace fermé — la 'chambre' ou le 'passage' — comme une métaphore interactive. Très reconnue dans le milieu de l'art contemporain pour ses vidéos, performances et installations physiques, Minkyung Choi transpose ici ses thématiques de prédilection en VR. Elle interroge la culture patriarcale et explore des récits sociaux complexes à travers un prisme féministe, obligeant le visiteur à traverser ces questionnements de manière immersive et intime."
+                paragraph: "Passage Room n'est pas qu'une simple démonstration en réalité virtuelle, c'est une véritable œuvre d'art engagée. Conçue par Minkyung Choi, une artiste visuelle sud-coréenne basée à Séoul, l'expérience utilise la notion d'espace fermé — la \"chambre\" ou le \"passage\" — comme une métaphore interactive. Très reconnue dans le milieu de l'art contemporain pour ses vidéos, performances et installations physiques, Minkyung Choi transpose ici ses thématiques de prédilection en VR. Elle interroge la culture patriarcale et explore des récits sociaux complexes à travers un prisme féministe, obligeant le visiteur à traverser ces questionnements de manière immersive et intime."
             }
         ]
     },
@@ -28,7 +28,7 @@ export const expositions_corea = [
             },
                         {
                 subtitle: "Le studio :",
-                paragraph: "UBAC Studio (우박 스튜디오) est un fascinant duo d'artistes numériques coréens dont la marque de fabrique est d'explorer la façon dont la technologie s'entremêle avec la société. Dans leurs précédents projets, ils se sont concentrés sur la 'chair' et la façon dont nos corps physiques survivent, ou sont exclus, dans un monde hyper-technologique."
+                paragraph: "UBAC Studio (우박 스튜디오) est un fascinant duo d'artistes numériques coréens dont la marque de fabrique est d'explorer la façon dont la technologie s'entremêle avec la société. Dans leurs précédents projets, ils se sont concentrés sur la \"chair\" et la façon dont nos corps physiques survivent, ou sont exclus, dans un monde hyper-technologique."
             },
         ]
     },
@@ -76,7 +76,7 @@ export const expositions_corea = [
             },
             {
                 subtitle: "Le concept :",
-                paragraph: "Le nom du studio 'SixDofamine' est un excellent jeu de mots entre la dopamine (l'hormone du plaisir) et le '6DoF' (Six Degrees of Freedom), la technologie qui permet de se mouvoir librement dans l'espace en VR. L'œuvre, produite par Jeon Seo-young, se positionne comme une véritable 'Performance Immersive IA' où notre corps dialogue avec l'algorithme."
+                paragraph: "Le nom du studio \"SixDofamine\" est un excellent jeu de mots entre la dopamine (l'hormone du plaisir) et le \"6DoF\" (Six Degrees of Freedom), la technologie qui permet de se mouvoir librement dans l'espace en VR. L'œuvre, produite par Jeon Seo-young, se positionne comme une véritable \"Performance Immersive IA\" où notre corps dialogue avec l'algorithme."
             }
         ]
     },
