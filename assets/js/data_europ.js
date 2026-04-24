@@ -15,8 +15,8 @@ export const expositions_europ = [
                 paragraph: "Ce qui rend la performance unique, c'est l'utilisation ingénieuse des capteurs (des \"trackers\"). L'acteur est entouré de plusieurs manettes/émetteurs physiques qui se transforment en objets numériques selon la scène :\n- La Caméra Virtuelle : L'un des capteurs sert exclusivement de caméra. Un cadreur peut le déplacer physiquement autour de l'acteur pour changer d'angle, faire des mouvements de caméra en live ou des travellings. La captation se fait en direct et est projetée sur un écran pour que le public puisse visualiser le \"film\" en train de se créer.\n- Le Marionnettisme Numérique : Deux à trois autres capteurs sont utilisés comme des marionnettes. Manipulés dans le monde réel, ils peuvent soudainement incarner une bande de poissons ou de méduses lors d'une scène sous-marine, ou se transformer en bras de monstre tentant d'attraper le héros lors d'une bataille épique !"
             },
                         {
-                subtitle: "3",
-                paragraph: "ok"
+                subtitle: "L'équipe créative ",
+                paragraph: "Derrière cette incroyable hybridation entre cinéma, théâtre et jeu vidéo, on retrouve trois chercheurs et artistes talentueux : Axel Belin (@axelbelin29000), Rémi Sagot-Duvauroux (@remi_sagduv) et Guillaume Seyller (@hypno.scope)."
             },
         ]
     },
