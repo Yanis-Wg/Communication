@@ -1,0 +1,30 @@
+.pictures-container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    gap: 0.75rem;
+    justify-content: center;
+    align-items: center;
+}
+.pictures-container>img{
+    width:auto;
+    height: 11rem;
+}
+/* Responsive */
+@media screen and (min-width:424px) {
+    .pictures-container{
+        justify-content: left;
+    }
+
+    .pictures-container>img{
+        width:auto;
+        height: 15rem;
+    }
+}
+@media screen and (min-width:1430px) {
+    .pictures-container>img{
+        width:auto;
+        height: 25rem;
+    }
+}
