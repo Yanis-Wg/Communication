@@ -22,13 +22,17 @@ export const expositions_europ = [
     },
     {
         id: "2",
-        title: "Camera",
+        title: "L'Arbre Respiratoire : Une installation thermique interactive",
         cover : "../assets/images/corean_part/voo-pee.jpg",
         image: "../assets/images/corean_part/voo-pee.jpg",
         sections: [
             {
-                subtitle: "Incroyable",
-                paragraph: "detecte les mouvements"
+                subtitle: "L'expérience vécue :",
+                paragraph: "Au détour d'un couloir, une installation surprenante et organique capturait l'attention des visiteurs. Le dispositif était composé d'un grand écran installé le long du mur, couplé à une caméra thermique placée juste en dessous. Cette installation invisible capte en temps réel la présence et, surtout, la respiration des passants."
+            },
+            {
+                subtitle: "Le concept visuel :",
+                paragraph: "À l'écran, la métaphore est magnifique : nos canaux d'aération (nos poumons) sont illustrés sous la forme de branches d'arbres. L'œuvre réagit directement à notre corps. Plus notre respiration captée par la caméra est longue, forte et profonde, plus ces branches s'illuminent et prennent une teinte d'un rouge intense. C'est une matérialisation poétique de notre propre souffle."
             }
         ]
     },
@@ -49,6 +53,22 @@ export const expositions_europ = [
             {
                 subtitle: "L'expertise québécoise :",
                 paragraph: "Ce projet s'inscrit dans la droite lignée des innovations majeures venues du Québec, le fameux Musée Virtuel ELEKTRA ou les expositions sociales du Centre PHI. La province canadienne confirme ainsi son statut de pionnière mondiale dans la création d'espaces culturels persistants, prouvant que la technologie XR peut rassembler les gens autour de l'art plutôt que de les isoler."
+            }
+        ]
+    },
+    {
+        id: "4",
+        title: "Contes en 3D",
+        cover : "../assets/images/corean_part/voo-pee.jpg",
+        image: "../assets/images/corean_part/voo-pee.jpg",
+        sections: [
+            {
+                subtitle: "L'expérience vécue :",
+                paragraph: "Ce stand proposait une configuration très visuelle et invitante : plusieurs écrans étaient installés en hauteur pour permettre au public extérieur de suivre l'action, tandis qu'un casque VR suspendu et ses manettes de mouvement attendaient le visiteur au centre."
+            },
+            {
+                subtitle: "L'immersion narrative :",
+                paragraph: "Une fois le casque sur la tête et les manettes en main, on plonge au cœur d'une véritable narration virtuelle. L'expérience nous fait vivre différentes histoires au travers de personnages évoluant dans un environnement entièrement conçu en 3D. C'est un excellent exemple de la façon dont la XR renouvelle l'art de raconter des histoires, en nous plongeant physiquement au milieu du récit et de ses protagonistes."
             }
         ]
     }
