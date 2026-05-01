@@ -4,7 +4,7 @@ export const expositions_corea = [
         title: "Passage Room",
         // author: "By: Minkyung Choi",
         cover : "../assets/images/corean_part/passage-room.jpg",
-        image: "../assets/images/corean_part/passage-room.jpg",
+        image: "../assets/images/galerie/20260420_0033.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -16,7 +16,7 @@ export const expositions_corea = [
         id: "2",
         title: "Voooooo---Peeeeeee---",
         cover : "../assets/images/corean_part/voo-pee.jpg",
-        image: "../assets/images/corean_part/voo-pee.jpg",
+        image: "../assets/images/galerie/20260420_0009.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -36,7 +36,7 @@ export const expositions_corea = [
         id: "3",
         title: "Woven Frequencies",
         cover : "../assets/images/corean_part/woven-frequencies.jpg",
-        image: "../assets/images/corean_part/woven-frequencies.jpg",
+        image: "../assets/images/galerie/20260420_0001.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -51,8 +51,8 @@ export const expositions_corea = [
     {
         id: "4",
         title: "Naked Island XR",
-        cover : "../assets/images/corean_part/naked-island-xr.jpg",
-        image: "../assets/images/corean_part/naked-island-xr.jpg",
+        cover : "../assets/images/corean_part/naked-island.jpg",
+        image: "../assets/images/galerie/20260420_0032.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -67,8 +67,8 @@ export const expositions_corea = [
     {
         id: "5",
         title: "You’Ro Dance",
-        cover : "../assets/images/corean_part/you-ro-dance.jpg",
-        image: "../assets/images/corean_part/you-ro-dance.jpg",
+        cover : "../assets/images/corean_part/youro-dance.jpg",
+        image: "../assets/images/galerie/20260420_0008.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -84,7 +84,7 @@ export const expositions_corea = [
         id: "6",
         title: "Eternal Land,To You in 3025",
         cover : "../assets/images/corean_part/eternal-land.jpg",
-        image: "../assets/images/corean_part/eternal-land.jpg",
+        image: "../assets/images/galerie/20260420_0006.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",

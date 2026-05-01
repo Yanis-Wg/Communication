@@ -3,8 +3,8 @@ export const expositions_europ = [
         id: "1",
         title: "La folle épopée du Naufragé des Abysses",
         // author: "By: Minkyung Choi",
-        cover : "../assets/images/corean_part/passage-room.jpg",
-        image: "../assets/images/corean_part/passage-room.jpg",
+        cover : "../assets/images/europ_part/epopee-naufrage.PNG",
+        image: "../assets/images/galerie/20260420_0024.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -23,8 +23,8 @@ export const expositions_europ = [
     {
         id: "2",
         title: "L'Arbre Respiratoire : Une installation thermique interactive",
-        cover : "../assets/images/corean_part/voo-pee.jpg",
-        image: "../assets/images/corean_part/voo-pee.jpg",
+        cover : "../assets/images/europ_part/arbre-respiratoire.PNG",
+        image: "../assets/images/galerie/20260420_0035.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -39,8 +39,8 @@ export const expositions_europ = [
     {
         id: "3",
         title: "Musée Virtuel ELEKTRA",
-        cover : "../assets/images/corean_part/voo-pee.jpg",
-        image: "../assets/images/corean_part/voo-pee.jpg",
+        cover : "../assets/images/europ_part/elektra.PNG",
+        image: "../assets/images/galerie/20260420_0016.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",
@@ -59,8 +59,8 @@ export const expositions_europ = [
     {
         id: "4",
         title: "Contes en 3D",
-        cover : "../assets/images/corean_part/voo-pee.jpg",
-        image: "../assets/images/corean_part/voo-pee.jpg",
+        cover : "../assets/images/europ_part/casque-vr.PNG",
+        image: "../assets/images/galerie/20260420_0019.png",
         sections: [
             {
                 subtitle: "L'expérience vécue :",

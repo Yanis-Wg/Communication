@@ -111,6 +111,21 @@ main {
     background-image: url("../images/corean_part/eternal-land.jpg");
 }
 
+.spectacle {
+    background-image: url("../images/europ_part/epopee-naufrage.PNG");
+}
+
+.camera{
+    background-image: url("../images/europ_part/arbre-respiratoire.PNG");
+}
+
+.museum {
+background-image: url("../images/europ_part/elektra.PNG");
+}
+.vr-headset {
+    background-image: url("../images/europ_part/casque-vr.PNG");
+}
+
 .basic-container h1 {
     text-align: center;
 }
