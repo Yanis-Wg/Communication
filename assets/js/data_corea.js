@@ -8,7 +8,7 @@ export const expositions_corea = [
         sections: [
             {
                 subtitle: "L'expérience vécue :",
-                paragraph: "Passage Room n'est pas qu'une simple démonstration en réalité virtuelle, c'est une véritable œuvre d'art engagée. Conçue par Minkyung Choi, une artiste visuelle sud-coréenne basée à Séoul, l'expérience utilise la notion d'espace fermé — la \"chambre\" ou le \"passage\" — comme une métaphore interactive. Très reconnue dans le milieu de l'art contemporain pour ses vidéos, performances et installations physiques, Minkyung Choi transpose ici ses thématiques de prédilection en VR. Elle interroge la culture patriarcale et explore des récits sociaux complexes à travers un prisme féministe, obligeant le visiteur à traverser ces questionnements de manière immersive et intime."
+                paragraph: "Passage Room n'est pas qu'une simple démonstration en réalité virtuelle, c'est une véritable œuvre d'art engagée. Conçue par Minkyung Choi, une artiste visuelle sud-coréenne basée à Séoul, l'expérience utilise la notion d'espace fermé - la \"chambre\" ou le \"passage\" - comme une métaphore interactive. Très reconnue dans le milieu de l'art contemporain pour ses vidéos, performances et installations physiques, Minkyung Choi transpose ici ses thématiques de prédilection en VR. Elle interroge la culture patriarcale et explore des récits sociaux complexes à travers un prisme féministe, obligeant le visiteur à traverser ces questionnements de manière immersive et intime."
             }
         ]
     },
@@ -20,7 +20,7 @@ export const expositions_corea = [
         sections: [
             {
                 subtitle: "L'expérience vécue :",
-                paragraph: "L'une des expériences les plus marquantes techniquement est Voooooo---Peeeeeee—. L'équipe d'UBAC Studio a fabriqué un gilet haptique gonflable que le visiteur porte pendant l'expérience. Ce gilet se gonfle et se dégonfle physiquement en fonction de l'histoire, des circonstances traversées par le personnage principal et de ses émotions. Tout cela est accompagné d'une mise en scène en vidéo 360°, avec une précision incroyable sur le bruitage et le chant, car le personnage principal chante et danse tout au long du récit."
+                paragraph: "L'une des expériences les plus marquantes techniquement est Voooooo---Peeeeeee---. L'équipe d'UBAC Studio a fabriqué un gilet haptique gonflable que le visiteur porte pendant l'expérience. Ce gilet se gonfle et se dégonfle physiquement en fonction de l'histoire, des circonstances traversées par le personnage principal et de ses émotions. Tout cela est accompagné d'une mise en scène en vidéo 360°, avec une précision incroyable sur le bruitage et le chant, car le personnage principal chante et danse tout au long du récit."
             },
             {
                 subtitle: "Les coulisses :",
